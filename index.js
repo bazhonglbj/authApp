@@ -94,7 +94,7 @@ app.get('/user',
 
 app.get('/logout',
   (req, res) => {
-    req.logout(),
+    //req.logout(),
     res.sendFile('html/logout.html', 
     { root: __dirname })
   }
